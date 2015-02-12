@@ -1,0 +1,47 @@
+.div_cb {
+  background-color: #EAF4D5;
+  width: 550px;
+  height: 650px;
+  margin: auto;
+  padding: 15px;
+}
+
+.div_cb h1 {
+  color: #44581A;
+}
+
+.div_cb h3 {
+  color: #44581A;
+  font-family: serif;
+  font-size: 12pt;
+}
+
+.div_cb h4 {
+  color: black;
+  font-family: serif;
+  margin-top: 20px;
+  margin-bottom: 2px;
+}
+
+.div_cb label {
+  display: block;
+  font-size: 10pt;
+  color: gray;
+  font-weight: none;
+  font-family: serif;
+}
+
+.div_cb .inp_txt {
+  width: 50%;
+  /*height: 100px;*/
+}
+
+.div_cb textarea {
+  width: 95%;
+  height: 100px;
+}
+
+.div_cb .btn_submit {
+  margin-top: 20px;
+  border-radius: 3px;
+}

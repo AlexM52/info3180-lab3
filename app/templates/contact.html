@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+
+{% block js %}
+{% endblock %}
+
+
+{% block main %}
+<div class="div_cb">
+  <form action="{{ url_for('contact') }}" method="post">
+    <h1>CONTACT FORM</h1>
+    <h3>Fill in this form to contact the site owners.</h3>
+    <h4>Name</h4>
+    <label>Please enter your full name</label>
+    <input class="inp_txt" type="text" name="name" autofocus />
+    <h4>E-Mail</h4>
+    <label>Please enter your email address</label>
+    <input class="inp_txt" type="email" name="email" />
+    <h4>Subject</h4>
+    <!--<label>Please enter your full name</label>-->
+    <input class="inp_txt" type="text" name="subject" />
+    <h4>Message</h4>
+    <label>Please enter the message you wish to send</label>
+    <textarea name="message"></textarea>
+    <input class="btn_submit" type="submit" name="submit" value="Submit" />
+  </form>
+</div>
+{% endblock %}
