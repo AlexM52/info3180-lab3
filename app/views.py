@@ -46,8 +46,8 @@ def sendemail(fromname, fromaddr, subject, msg):
     {}
     """
 
-    username = 'alex.info3180@gmail.com'    #email login username
-    password = '<pwd>'                       #email login password
+    username = 'alex.info3180@gmail.com'    #INSERT email login username
+    password = '<pwd>'                       #INSERT email login password(working password obsured)
 #     recipient_name = 'You'                        #insert destination address here
 #     recipient_addr = 'alex.info3180@gmail.com'    #insert destination address here
 
@@ -57,8 +57,8 @@ def sendemail(fromname, fromaddr, subject, msg):
 #     toaddr = recipient_addr
 #     subject = request.form['subject']
 #     msg = request.form['message']
-    toname = 'You'
-    toaddr = 'alex.info3180@gmail.com'
+    toname = 'You'                                  #INSERT RECIPIENT NAME HERE
+    toaddr = 'alex.info3180@gmail.com'              #INSERT RECIPIENT ADDRESS HERE
 
     messagetosend = message.format(
      fromname,
